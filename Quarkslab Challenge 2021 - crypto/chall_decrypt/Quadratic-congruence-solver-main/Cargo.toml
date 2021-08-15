@@ -1,0 +1,15 @@
+[package]
+name = "quadratic_congruence_solver"
+version = "1.0.0"
+
+[profile.dev]
+opt-level = 0
+
+[profile.test]
+opt-level = 3
+overflow-checks = true
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
